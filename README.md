@@ -9,8 +9,7 @@
 
 <div align="center">
 
-<em>A three-stage workflow that carries educators from concern to documented decision<br>
-while preserving professional judgment.</em>
+<em>Guiding educators from concern to documented decision while preserving professional judgment.</em>
 
 </div>
 
