@@ -4,7 +4,7 @@
 
 ---
 
-![MTSS Dashboard](Assets/dashboard-main.png)
+![MTSS Dashboard](dashboard-main.png)
 
 *Figure 1. The MTSS Decision-Support System guides educators through intervention planning using structured workflows and evidence-informed decision points.*
 
