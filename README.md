@@ -9,6 +9,7 @@
 
 <p align="center"><em>A three-stage workflow that carries educators from concern to documented decision while preserving professional judgment.</em></p>
 
+---
 
 ### Introduction
 
