@@ -8,7 +8,6 @@
 </p>
 
 <div align="center">
-
 <em>Guiding educators from concern to documented decision while preserving professional judgment.</em>
 
 </div>
