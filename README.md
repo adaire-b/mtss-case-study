@@ -4,10 +4,11 @@
 
 ---
 
-![Three-stage MTSS workflow](mtss-workflow.png)
+<p align="center">
+  <img src="mtss-workflow.png" alt="Three-stage MTSS workflow" width="750">
+</p>
 
-*A three-stage workflow that carries educators from concern to documented decision while preserving professional judgment.*
-
+<p align="center"><em>A three-stage workflow that carries educators from concern to documented decision while preserving professional judgment.</em></p>
 
 ---
 
