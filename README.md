@@ -2,7 +2,6 @@
 
 **A research-informed decision-support system that helps educators consistently identify, document, and monitor academic interventions.**
 
----
 
 <p align="center">
   <img src="mtss-workflow.png" alt="Three-stage MTSS workflow" width="750">
@@ -10,9 +9,8 @@
 
 <p align="center"><em>A three-stage workflow that carries educators from concern to documented decision while preserving professional judgment.</em></p>
 
----
 
-## Introduction
+### Introduction
 
 This repository contains the source and supporting documentation for my MTSS Decision-Support System case study.
 
@@ -22,7 +20,7 @@ Rather than replacing educator expertise, the system provides structure, documen
 
 ---
 
-## The Problem
+### The Problem
 
 Schools often rely on lengthy documentation, scattered resources, and institutional knowledge to guide MTSS implementation.
 
@@ -38,7 +36,7 @@ The result is unnecessary cognitive load, inconsistent implementation, and slowe
 
 ---
 
-## What I Built
+### What I Built
 
 I designed a workflow-centered decision-support system informed by educator interviews and survey data.
 
@@ -55,7 +53,7 @@ The work emphasizes:
 
 ---
 
-## Design Philosophy
+### Design Philosophy
 
 Several principles guided the design:
 
@@ -67,12 +65,12 @@ Several principles guided the design:
 
 ---
 
-## Repository Overview
+### Repository Overview
 
 This repository contains the source for the published case study, supporting images, and portfolio documentation.
 ---
 
-## Copyright & Usage
+### Copyright & Usage
 
 © 2026 Adaire Baltzer. All rights reserved.
 
