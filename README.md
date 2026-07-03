@@ -1,12 +1,13 @@
 # MTSS Decision-Support System
 
-**A research-informed decision-support system that helps educators navigate complex MTSS processes through guided workflows rather than static documentation.**
+**A research-informed decision-support system that helps educators consistently identify, document, and monitor academic interventions.**
 
 ---
 
-![MTSS Dashboard](dashboard-main.png)
+![Three-stage MTSS workflow](mtss-workflow.png)
 
-*Figure 1. The MTSS Decision-Support System guides educators through intervention planning using structured workflows and evidence-informed decision points.*
+*A three-stage workflow that carries educators from concern to documented decision while preserving professional judgment.*
+
 
 ---
 
@@ -40,7 +41,7 @@ The result is unnecessary cognitive load, inconsistent implementation, and slowe
 
 I designed a workflow-centered decision-support system informed by educator interviews and survey data.
 
-Rather than presenting another static handbook, the project organizes MTSS implementation into guided pathways that help educators navigate the process while maintaining local flexibility.
+Rather than presenting another handbook, the project organizes MTSS into guided workflows that help educators navigate the process while preserving local flexibility.
 
 The work emphasizes:
 
@@ -65,17 +66,16 @@ Several principles guided the design:
 
 ---
 
-## Repository Contents
+## Repository Overview
 
-This repository contains the source for the published case study, supporting assets, and project documentation used in my professional portfolio.
-
+This repository contains the source for the published case study, supporting images, and portfolio documentation.
 ---
 
 ## Copyright & Usage
 
 © 2026 Adaire Baltzer. All rights reserved.
 
-This repository is a professional portfolio demonstrating my work in systems design, workflow architecture, implementation planning, and process improvement.
+This repository is part of my professional portfolio and showcases my work in systems design, workflow architecture, implementation planning, and process improvement.
 
 You are welcome to:
 
