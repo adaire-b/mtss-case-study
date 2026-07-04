@@ -10,8 +10,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
 <style>
   :root{
-    --ink:#1a1d21;--ink-soft:#3f454d;--gray:#6b727c;--gray-light:#9aa1ab;
-    --line:#e8eaed;--line-soft:#f0f1f3;--bg:#ffffff;--panel:#fafbfc;--accent:#12294d;
+    --ink:#434C4F;         /* --heading */
+    --ink-soft:#555F61;    /* --text */
+    --gray:#7A8895;        /* --muted */
+    --gray-light:#9AA6B0;
+    --line:#E3E7EA;--line-soft:#EFF1F3;--bg:#ffffff;--panel:#fafbfc;
+    --accent:#8EA2C5;      /* decorative accents */
+    --link:#17345C;        /* links + accent text */
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
@@ -43,7 +48,7 @@
   .snapshot{margin:44px 0 8px}
   .snapshot-label{
     font-size:12.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
-    color:var(--accent);margin-bottom:22px;
+    color:var(--link);margin-bottom:22px;
   }
   .snap-grid{display:grid;grid-template-columns:150px 1fr;row-gap:0}
   .snap-grid .k,.snap-grid .v{padding:15px 0;border-top:1px solid var(--line-soft)}
@@ -61,7 +66,7 @@
   .section-head{margin-bottom:26px}
   .section-head .eyebrow2{
     font-size:12.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
-    color:var(--accent);margin-bottom:12px;display:block;
+    color:var(--link);margin-bottom:12px;display:block;
   }
   h2{font-family:'Poppins',sans-serif;font-weight:700;font-size:31px;line-height:1.12;letter-spacing:-.02em;color:var(--ink)}
   .prose p{color:var(--ink-soft);font-size:16px;line-height:1.68;max-width:64ch}
@@ -88,7 +93,7 @@
   .flow text{font-family:'Inter',-apple-system,sans-serif}
   .genflow{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;align-items:stretch;margin:34px 0 0}
   .genstep{border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:18px 20px}
-  .genstep .kick{font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+  .genstep .kick{font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--link);margin-bottom:8px}
   .genstep p{font-size:13.5px;line-height:1.5;color:var(--ink-soft)}
   .genstep p span{color:var(--gray)}
   .genarrow{align-self:center;color:var(--gray-light);font-size:18px;padding:0 12px}
@@ -96,7 +101,7 @@
   .genquote span{display:block;margin-top:8px;font-size:12.5px;font-weight:400;color:var(--gray)}
   @media (max-width:640px){.genflow{grid-template-columns:1fr;gap:10px}.genarrow{display:none}}
   .featmap{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin:22px 0 0;padding:28px 30px;border:1px solid var(--line);border-radius:14px;background:var(--panel)}
-  .featcol .h{font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:13px}
+  .featcol .h{font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--link);margin-bottom:13px}
   .featcol ul{list-style:none;margin:0;padding:0}
   .featcol li{font-size:13.5px;line-height:1.4;color:var(--ink-soft);padding-left:14px;position:relative;margin-bottom:9px}
   .featcol li::before{content:"";position:absolute;left:0;top:.55em;width:4px;height:4px;border-radius:50%;background:var(--gray-light)}
@@ -119,11 +124,10 @@
   <section class="page">
     <p class="eyebrow">Product Case Study</p>
     <h1>Ask First, Then Build<br>From the Evidence</h1>
-    <p class="deck">A decision-support system that helps teachers consistently identify, document, and monitor academic interventions &mdash; built to what a survey of them actually said they needed.</p>
+    <p class="deck">A decision-support system that helps teachers consistently identify, document, and monitor academic interventions. Built from what a survey of them actually said they needed.</p>
     <div class="byline">
       <strong>Adaire Baltzer</strong>
-      <span class="dot"></span>
-      <span class="role">Workflow Designer &bull; Systems Thinker</span>
+      <span class="role">Workflow Designer</span>
     </div>
 
     <div class="snapshot">
@@ -136,36 +140,36 @@
         <div class="v">Google Sites <span class="muted">·</span> Google Sheets <span class="muted">·</span> Google Forms</div>
 
         <div class="k">Context</div>
-        <div class="v">M.S. capstone <span class="muted">— Curriculum &amp; Instruction (WGU, 2025)</span></div>
+        <div class="v">M.S. capstone <span class="muted">in Curriculum &amp; Instruction (WGU, 2025)</span></div>
 
         <div class="k">Scope</div>
-        <div class="v">Data-informed MTSS decision support for general education &mdash; intervention documentation, planning, and progress monitoring</div>
+        <div class="v">Data-informed MTSS decision support for general education: intervention documentation, planning, and progress monitoring</div>
 
         <div class="k">Grounded in</div>
         <div class="v">An 18-teacher mixed-methods survey<br><span class="muted">Findings shaped every design decision</span></div>
       </div>
     </div>
 
-    <p class="herostmt">I didn&rsquo;t guess at the fix. I surveyed the people doing the work &mdash; then built the system the data asked for.</p>
+    <p class="herostmt">I didn&rsquo;t guess at the fix. I surveyed the people doing the work, then built the system the data asked for.</p>
   </section>
 
   <!-- ============ PAGE 2 — THE PROBLEM ============ -->
   <section class="page">
     <div class="section-head"><span class="eyebrow2">The Problem</span></div>
     <div class="prose">
-      <p class="lead">Multi-Tiered Systems of Support (MTSS) &mdash; also called Response to Intervention, or RTI &mdash; is how schools catch students who are falling behind and give them targeted help before they fall further. At my school, that framework worked for reading and not for math.</p>
-      <p>Reading had a system because state mandates required reading screening: students were screened, a reading specialist reviewed the data, grouped them into evidence-based interventions, and monitored their response. Math had no such engine. Screening for math was unreliable &mdash; the state required Acadience benchmark reporting for mathematics, but it never became a dependable screening-to-intervention pipeline &mdash; so general-education teachers were left to run math interventions on their own, with limited time, support, and access to evidence-based resources.</p>
+      <p class="lead">Multi-Tiered Systems of Support (MTSS), also called Response to Intervention or RTI, is how schools catch students who are falling behind and give them targeted help before they fall further. At my school, that framework worked for reading and not for math.</p>
+      <p>Reading had a system because state mandates required reading screening: students were screened, a reading specialist reviewed the data, grouped them into evidence-based interventions, and monitored their response. Math had no such engine. Screening for math was unreliable. The state required Acadience benchmark reporting for mathematics, but it never became a dependable screening-to-intervention pipeline, so general-education teachers were left to run math interventions on their own, with limited time, support, and access to evidence-based resources.</p>
       <p>The predictable result: interventions were inconsistently delivered, rarely documented, and often never progress-monitored.</p>
     </div>
 
     <div class="failcards">
-      <div class="failcard"><div class="kick">Reading</div><p>A specialist reviewed the data, assigned students to evidence-based intervention groups, and tracked response &mdash; a structured, documented system.</p></div>
-      <div class="failcard"><div class="kick">Math</div><p>No comparable system. Teachers ran interventions on their own &mdash; inconsistently delivered, rarely documented, and often unmonitored.</p></div>
+      <div class="failcard"><div class="kick">Reading</div><p>A specialist reviewed the data, assigned students to evidence-based intervention groups, and tracked response. A structured, documented system.</p></div>
+      <div class="failcard"><div class="kick">Math</div><p>No comparable system. Teachers ran interventions on their own: inconsistently delivered, rarely documented, and often unmonitored.</p></div>
     </div>
 
     <div class="note">
       <div class="kick">Why it mattered</div>
-      <p>When a struggling student reached the evaluation stage, teams often lacked documentation that adequate Tier&nbsp;2 supports had been tried &mdash; so students could be referred for special-education evaluation on incomplete evidence. Implemented with fidelity, MTSS does the opposite: research links it to roughly 15% fewer specific-learning-disability identifications and measurable achievement gains (Ainsworth et&nbsp;al., 2024).</p>
+      <p>When a struggling student reached the evaluation stage, teams often lacked documentation that adequate Tier&nbsp;2 supports had been tried, so students could be referred for special-education evaluation on incomplete evidence. Implemented with fidelity, MTSS does the opposite: research links it to roughly 15% fewer specific-learning-disability identifications and measurable achievement gains (Ainsworth et&nbsp;al., 2024).</p>
     </div>
 
     <p class="statement">The problem wasn&rsquo;t a lack of effort. It was the absence of a shared, documented process.</p>
@@ -175,11 +179,11 @@
   <section class="page">
     <div class="section-head"><span class="eyebrow2">The Research</span></div>
     <div class="prose">
-      <p class="lead">Rather than assume what teachers needed, I asked them. An anonymous, mixed-methods survey went to certified staff &mdash; Likert-scale items to surface the patterns, open-ended questions to explain them &mdash; analyzed with descriptive statistics and inductive thematic coding.</p>
+      <p class="lead">Rather than assume what teachers needed, I asked them. An anonymous, mixed-methods survey went to certified staff: Likert-scale items to surface the patterns, open-ended questions to explain them. It was analyzed with descriptive statistics and inductive thematic coding.</p>
     </div>
 
     <div class="stats">
-      <div class="stat"><div class="val">18</div><div class="lab">Teachers responded &mdash; quantitative ratings and open-ended reflections from the people doing the work.</div></div>
+      <div class="stat"><div class="val">18</div><div class="lab">Teachers responded: quantitative ratings and open-ended reflections from the people doing the work.</div></div>
       <div class="stat"><div class="val">3 themes</div><div class="lab">The same barriers surfaced again and again, across grade levels.</div></div>
     </div>
 
@@ -192,7 +196,7 @@
 
     <div class="note">
       <div class="kick">What teachers said would help</div>
-      <p>Standardized documentation tools, easier access to intervention data, and ready-made, grade-aligned intervention resources &mdash; plus clearer guidance on how MTSS is supposed to work. So that is what I built.</p>
+      <p>Standardized documentation tools, easier access to intervention data, ready-made grade-aligned intervention resources, and clearer guidance on how MTSS is supposed to work. So that is what I built.</p>
     </div>
   </section>
 
@@ -200,32 +204,32 @@
   <section class="page">
     <div class="section-head"><span class="eyebrow2">What I Built</span></div>
     <div class="prose">
-      <p class="lead">A data-informed MTSS system built directly from those findings: a resources-and-support portal, a staged documentation workflow, a SMART-goal generator, and a tiered library of evidence-based interventions &mdash; organized so a classroom teacher can move from concern to documented support without guessing at the process.</p>
+      <p class="lead">A data-informed MTSS system built directly from those findings: a resources-and-support portal, a staged documentation workflow, a SMART-goal generator, and a tiered library of evidence-based interventions. It's organized so a classroom teacher can move from concern to documented support without guessing at the process.</p>
     </div>
 
     <figure>
       <svg class="flow" viewBox="0 0 720 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Three-stage MTSS workflow: identify and document, plan and deliver, analyze and decide">
-        <rect x="0" y="14" width="224" height="108" rx="12" fill="#fafbfc" stroke="#e8eaed"/>
-        <rect x="248" y="14" width="224" height="108" rx="12" fill="#fafbfc" stroke="#e8eaed"/>
-        <rect x="496" y="14" width="224" height="108" rx="12" fill="#fafbfc" stroke="#e8eaed"/>
-        <text x="20" y="45" font-size="11" font-weight="700" fill="#12294d">STAGE 1</text>
-        <text x="20" y="69" font-size="15" font-weight="600" fill="#1a1d21">Identify &amp; Document</text>
-        <text x="20" y="91" font-size="12" fill="#6b727c">concern &amp; evidence</text>
-        <text x="268" y="45" font-size="11" font-weight="700" fill="#12294d">STAGE 2</text>
-        <text x="268" y="69" font-size="15" font-weight="600" fill="#1a1d21">Plan &amp; Deliver</text>
-        <text x="268" y="91" font-size="12" fill="#6b727c">goal &middot; intervention &middot; log</text>
-        <text x="516" y="45" font-size="11" font-weight="700" fill="#12294d">STAGE 3</text>
-        <text x="516" y="69" font-size="15" font-weight="600" fill="#1a1d21">Analyze &amp; Decide</text>
-        <text x="516" y="91" font-size="12" fill="#6b727c">review &amp; next step</text>
-        <line x1="226" y1="68" x2="242" y2="68" stroke="#9aa1ab" stroke-width="1.5"/>
-        <polygon points="248,68 241,64 241,72" fill="#9aa1ab"/>
-        <line x1="474" y1="68" x2="490" y2="68" stroke="#9aa1ab" stroke-width="1.5"/>
-        <polygon points="496,68 489,64 489,72" fill="#9aa1ab"/>
+        <rect x="0" y="14" width="224" height="108" rx="12" fill="#fafbfc" stroke="#E3E7EA"/>
+        <rect x="248" y="14" width="224" height="108" rx="12" fill="#fafbfc" stroke="#E3E7EA"/>
+        <rect x="496" y="14" width="224" height="108" rx="12" fill="#fafbfc" stroke="#E3E7EA"/>
+        <text x="20" y="45" font-size="11" font-weight="700" fill="#17345C">STAGE 1</text>
+        <text x="20" y="69" font-size="15" font-weight="600" fill="#434C4F">Identify &amp; Document</text>
+        <text x="20" y="91" font-size="12" fill="#7A8895">concern &amp; evidence</text>
+        <text x="268" y="45" font-size="11" font-weight="700" fill="#17345C">STAGE 2</text>
+        <text x="268" y="69" font-size="15" font-weight="600" fill="#434C4F">Plan &amp; Deliver</text>
+        <text x="268" y="91" font-size="12" fill="#7A8895">goal &middot; intervention &middot; log</text>
+        <text x="516" y="45" font-size="11" font-weight="700" fill="#17345C">STAGE 3</text>
+        <text x="516" y="69" font-size="15" font-weight="600" fill="#434C4F">Analyze &amp; Decide</text>
+        <text x="516" y="91" font-size="12" fill="#7A8895">review &amp; next step</text>
+        <line x1="226" y1="68" x2="242" y2="68" stroke="#8EA2C5" stroke-width="1.5"/>
+        <polygon points="248,68 241,64 241,72" fill="#8EA2C5"/>
+        <line x1="474" y1="68" x2="490" y2="68" stroke="#8EA2C5" stroke-width="1.5"/>
+        <polygon points="496,68 489,64 489,72" fill="#8EA2C5"/>
       </svg>
-      <figcaption>A defined three-stage workflow &mdash; concern to decision &mdash; with MTSS-team review at each checkpoint.</figcaption>
+      <figcaption>A defined three-stage workflow, concern to decision, with MTSS-team review at each checkpoint.</figcaption>
     </figure>
 
-    <p class="lead-in">The full system is bigger than any one screen &mdash; documentation, intervention selection, and data, in one place:</p>
+    <p class="lead-in">The full system is bigger than any one screen: documentation, intervention selection, and data, in one place.</p>
     <div class="featmap">
       <div class="featcol">
         <div class="h">Documentation</div>
@@ -266,7 +270,7 @@
 
     <div class="note">
       <div class="kick">A record ready for the meeting</div>
-      <p>The system generates the completed documentation forms from the data teachers enter, and gives each teacher a view filtered to their own students. It also keeps a log of every ongoing and past intervention cycle &mdash; so when the MTSS team meets to review needs, the history is already in front of them (what was tried, for how long, and how the student responded) instead of scattered across memory and paper.</p>
+      <p>The system generates the completed documentation forms from the data teachers enter, and gives each teacher a view filtered to their own students. It also keeps a log of every ongoing and past intervention cycle, so when the MTSS team meets to review needs, the history is already in front of them (what was tried, for how long, and how the student responded) instead of scattered across memory and paper.</p>
     </div>
   </section>
 
@@ -276,7 +280,7 @@
 
     <div class="note">
       <div class="kick">The educator decides; the system structures</div>
-      <p>The tool drafts a SMART goal from a chosen evidence-based practice and the teacher&rsquo;s inputs, organizes the documentation, and tracks progress. It never makes the instructional decision &mdash; the educator reviews and approves every goal. Human-in-the-loop by design.</p>
+      <p>The tool drafts a SMART goal from a chosen evidence-based practice and the teacher&rsquo;s inputs, organizes the documentation, and tracks progress. It never makes the instructional decision. The educator reviews and approves every goal. Human-in-the-loop by design.</p>
     </div>
 
     <figure>
@@ -288,7 +292,7 @@
         <div class="genarrow">&rarr;</div>
         <div class="genstep">
           <div class="kick">The system drafts</div>
-          <p>An evidence-based intervention <span>(e.g., Assisted Reading &mdash; 5&ndash;10 min, 3&ndash;5&times;/week, with ORF checks)</span> and a measurable SMART goal.</p>
+          <p>An evidence-based intervention <span>(e.g., Assisted Reading: 5&ndash;10 min, 3&ndash;5&times;/week, with ORF checks)</span> and a measurable SMART goal.</p>
         </div>
         <div class="genarrow">&rarr;</div>
         <div class="genstep">
@@ -296,18 +300,18 @@
           <p>Review, adjust, or write your own in the Teacher-Crafted Goal field.</p>
         </div>
       </div>
-      <p class="genquote">&ldquo;Given repeated reading practice and weekly ORF-WCPM monitoring, the student will improve oral reading fluency from 67 to 100 by 2/17/2026.&rdquo;<span>A SMART goal the generator produced from the inputs above &mdash; ready for the teacher to accept or rewrite.</span></p>
-      <figcaption>The SMART-goal generator: inputs in, an evidence-based intervention and a measurable goal out &mdash; the teacher&rsquo;s judgment on top.</figcaption>
+      <p class="genquote">&ldquo;Given repeated reading practice and weekly ORF-WCPM monitoring, the student will improve oral reading fluency from 67 to 100 by 2/17/2026.&rdquo;<span>A SMART goal the generator produced from the inputs above. Ready for the teacher to accept or rewrite.</span></p>
+      <figcaption>The SMART-goal generator: inputs in, an evidence-based intervention and a measurable goal out, with the teacher&rsquo;s judgment on top.</figcaption>
     </figure>
 
     <div class="note">
       <div class="kick">Grounded in the evidence base</div>
-      <p>Interventions and guidance align with the Institute of Education Sciences, the What Works Clearinghouse, NCII, and the Utah MTSS Framework &mdash; public, evidence-based standards, not one person&rsquo;s preferences.</p>
+      <p>Interventions and guidance align with the Institute of Education Sciences, the What Works Clearinghouse, NCII, and the Utah MTSS Framework: public, evidence-based standards, not one person&rsquo;s preferences.</p>
     </div>
 
     <div class="note">
       <div class="kick">Aligned to the eligibility standard</div>
-      <p>The documentation isn&rsquo;t busywork. It mirrors what state and federal rules require as the Response-to-Intervention record in a specific-learning-disability determination &mdash; high-quality core instruction, universal screening and progress monitoring, tiered evidence-based interventions, and documented parent communication. What a teacher logs cycle to cycle becomes exactly the evidence an eligibility team needs later (USBE Special Education Rules; 34&nbsp;CFR &sect;&nbsp;300.309).</p>
+      <p>The documentation isn&rsquo;t busywork. It mirrors what state and federal rules require as the Response-to-Intervention record in a specific-learning-disability determination: high-quality core instruction, universal screening and progress monitoring, tiered evidence-based interventions, and documented parent communication. What a teacher logs cycle to cycle becomes exactly the evidence an eligibility team needs later (USBE Special Education Rules; 34&nbsp;CFR &sect;&nbsp;300.309).</p>
     </div>
 
     <div class="note">
@@ -323,7 +327,7 @@
     <div class="section-head"><span class="eyebrow2">Why It Matters</span></div>
     <div class="prose">
       <p class="lead">The takeaway reaches past one school: strengthening MTSS is less about adding effort and more about giving teachers a process that&rsquo;s clear, efficient, and shared.</p>
-      <p>Because the system was designed from teacher feedback and aligned to evidence-based standards, it targets the exact barriers that keep MTSS from working &mdash; and it&rsquo;s built to be refined over time rather than replaced. Done with fidelity, that&rsquo;s the kind of process that keeps students in the right supports and out of unnecessary evaluations.</p>
+      <p>Because the system was designed from teacher feedback and aligned to evidence-based standards, it targets the exact barriers that keep MTSS from working. It's also built to be refined over time rather than replaced. Done with fidelity, that&rsquo;s the kind of process that keeps students in the right supports and out of unnecessary evaluations.</p>
     </div>
 
     <div class="divider"></div>
@@ -331,15 +335,15 @@
     <div class="section-head"><span class="eyebrow2">What&rsquo;s Next</span></div>
     <div class="trio">
       <div class="failcard"><div class="kick">Beyond math</div><p>Extend the same structure to additional subjects and tiers on the model already in place.</p></div>
-      <div class="failcard"><div class="kick">Keep listening</div><p>Refine iteratively with ongoing staff feedback &mdash; the way it was built in the first place.</p></div>
-      <div class="failcard"><div class="kick">A data dashboard</div><p>Surface the intervention logs in a live view, so teams see each student&rsquo;s history and response at a glance &mdash; turning the record into measurable outcomes.</p></div>
+      <div class="failcard"><div class="kick">Keep listening</div><p>Refine iteratively with ongoing staff feedback, the way it was built in the first place.</p></div>
+      <div class="failcard"><div class="kick">A data dashboard</div><p>Surface the intervention logs in a live view, so teams see each student&rsquo;s history and response at a glance. That turns the record into measurable outcomes.</p></div>
     </div>
 
     <div class="divider"></div>
 
     <div class="section-head"><span class="eyebrow2">What This Project Represents</span></div>
     <div class="prose">
-      <p class="lead">This is how I approach complex problems: start by understanding the people doing the work, find the patterns in what&rsquo;s slowing them down, and build systems that reduce complexity instead of adding to it. The technology matters &mdash; but the goal is always the same. Help people spend less time on process and more time using their expertise.</p>
+      <p class="lead">This is how I approach complex problems: start by understanding the people doing the work, find the patterns in what&rsquo;s slowing them down, and build systems that reduce complexity instead of adding to it. The technology matters. But the goal is always the same: help people spend less time on process and more time using their expertise.</p>
     </div>
 
     <p class="finelegal">An independent M.S. capstone project (Curriculum &amp; Instruction, WGU). District-specific MTSS forms and adopted procedures are not shown; the framing here aligns to public, evidence-based guidance (IES, the What Works Clearinghouse, NCII, and the Utah MTSS Framework). Program and product names referenced are trademarks of their respective owners.</p>
